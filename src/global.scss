@@ -1,0 +1,49 @@
+:root {
+  font-family: 'Nunito', sans-serif;
+
+  --color-surface: #ffffff;
+  --color-background: #F8F8F8;
+
+  --color-text: #000000;
+  --color-text_white: #ffffff;
+  --color-text_disabled: #ffffff;
+
+  --color-primary_100: #F4E041;
+  --color-primary_200: #FFE302;
+  --color-primary_disabled: #B4B4B4;
+
+  --color-secondary_100: #00BDD3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  background-color: var(--color-background);
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  text-align: center;
+}
+
+//
+.textarea {
+  padding: 1.4rem 1.6rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+
+  color: #7E7E7E;
+  border: solid 1px #D0CFCF;
+  border-radius: 4px;
+}

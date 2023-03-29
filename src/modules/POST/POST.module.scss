@@ -1,0 +1,37 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5rem;
+    margin-bottom: 10rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    width: 100%;
+    max-width: 38rem;
+
+    fieldset {
+        border: none;
+    }
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+@media screen and (max-width: 425px) {
+    .form {
+        width: 100%;
+    }
+}

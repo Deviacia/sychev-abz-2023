@@ -1,0 +1,25 @@
+.button {
+    border: none;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    padding: 4px 2.3rem;
+    border-radius: 8rem;
+
+    white-space: nowrap;
+
+    color: var(--color-text);
+    background-color: var(--color-primary_100);
+    transition: 
+        color .195s linear,
+        background-color .195s linear
+    ;
+
+    &:hover{
+        background-color: var(--color-primary_200);
+    }
+
+    &:disabled{
+        color: var(--color-text_disabled);
+        background-color: var(--color-primary_disabled);
+    }
+}
